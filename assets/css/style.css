@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 100%;
+  font-size: 13px;
+}
+
+header {
+  padding: 10px;
+  background-color: rgb(217, 231, 245);
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  list-style: none;
+  background-color: rgb(68, 68, 68);
+
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+div h2 {
+  text-align: center;
+  color: white;
+  background-color: rgb(68, 68, 68);
+}
+
+.color {
+  color: rgb(56, 182, 255);
+}
+
+header h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 30px;
+  padding: 20px;
+}
+
+aside h3 {
+  color: white;
+  background-color: rgb(68, 68, 68);
+}
+
+article {
+  flex: 30%;
+  padding: 20px;
+}
+
+article h2 {
+  color: white;
+  background-color: rgb(68, 68, 68);
+}
+
+.lista {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  justify-content: center;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(14, 53, 105);
+}
+
+a {
+  color: red;
+}
+
+.portafolio {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.imagen {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border: 1px solid #999;
+}
+
+.imagen:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

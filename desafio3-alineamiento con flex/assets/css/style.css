@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1366px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.container header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+main .bg-img {
+  background-image: url("../img/bg-header.jpg");
+  background-size: contain;
+  background-position: center center;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 768px;
+}
+
+/* seccion 1 */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+main .section1 article p {
+  text-align: justify;
+  margin-left: 220px;
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+main .section1 figure img {
+  margin-right: 150px;
+  width: 300px;
+  height: 200px;
+}
+
+/* seccion 2 */
+
+main .section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #1e1a13;
+  height: 200px;
+  font-size: 20px;
+}
+
+main .section2 article h2 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+main .section2 .caracteristic-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 200px;
+}
+
+main .section2 .caracteristic-container div i {
+  margin: 5px;
+}
+
+main .section2 .caracteristic-container div p {
+  margin: 10px;
+}
+
+/* Galeria */
+
+main .galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+main .galery figure img {
+  width: 180px;
+  height: 130px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  background-color: #1e1a13;
+  height: 50px;
+}
+
+.back-button {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #949494;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #666869;
+  border-radius: 5px;
+  max-width: 100px;
+}
+
+.back-button:hover {
+  background-color: #555555;
+  border-color: #474747;
+  cursor: pointer;
+}

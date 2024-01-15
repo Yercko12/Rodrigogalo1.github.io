@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.custom-font-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #949494;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #666869;
+  border-radius: 5px;
+  max-width: 100px;
+}
+
+.back-button:hover {
+  background-color: #555555;
+  border-color: #474747;
+  cursor: pointer;
+}
